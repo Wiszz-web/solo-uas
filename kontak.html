@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="brand" aria-hidden="false">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Bank Sampah</div>
+      </div>
+
+      <!-- details used for mobile toggle; on desktop it becomes display:contents -->
+      <details class="nav-toggle" role="group" aria-label="Menu navigasi">
+        <summary aria-label="Buka menu" class="summary-btn">
+          <span class="hamburger" aria-hidden="true"><span></span></span>
+        </summary>
+
+        <div class="menu" role="menubar" aria-label="Menu utama">
+          <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+          <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+          <a href="kontak.html" role="menuitem">Kontak</a>
+
+          <!-- mobile CTA (visible inside dropdown on small screens) -->
+          <div class="cta-mobile" style="margin-top:8px">
+            <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+            
+          </div>
+        </div>
+      </details>
+
+      <!-- desktop CTA -->
+      <div class="cta desktop-cta">
+        <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+        <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+        <a href="kontak.html" role="menuitem">Kontak</a>
+        <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+      </div>
+    </nav>
+  </header>
+
+
+    <section id="kontak" class="section-card" aria-labelledby="kontak-title">
+      <h2 id="kontak-title">Kontak & kemitraan</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Hubungi kami</h3>
+          <ul>
+            <li><strong>Email:</strong> halo@banksampah.example</li>
+            <li><strong>Telepon/WA:</strong> 08xx-xxxx-xxxx</li>
+            <li><strong>Instagram:</strong> @banksampah_nusantara</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Kemitraan</h3>
+          <p class="muted">Kami membuka kolaborasi dengan sekolah, kampus, perusahaan, dan komunitas untuk program lingkungan berkelanjutan.</p>
+          <div class="cta">
+            <a class="btn btn-outline" href="bergabung.html">Ajukan kerja sama</a>
+            <a class="btn btn-primary" href="Bank Sampah.html">Lihat program</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer>
+    <div class="footer-wrap">
+      <div>
+        <strong>Bank Sampah</strong>
+        <p class="small">Mendorong ekonomi sirkular lokal melalui pemilahan, penimbangan transparan, dan edukasi lingkungan.</p>
+      </div>
+      <div>
+        <p class="small">Bank Sampah • Dibangun dengan HTML & CSS ringan</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

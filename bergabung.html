@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bergabung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="brand" aria-hidden="false">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Bank Sampah</div>
+      </div>
+
+      <!-- details used for mobile toggle; on desktop it becomes display:contents -->
+      <details class="nav-toggle" role="group" aria-label="Menu navigasi">
+        <summary aria-label="Buka menu" class="summary-btn">
+          <span class="hamburger" aria-hidden="true"><span></span></span>
+        </summary>
+
+        <div class="menu" role="menubar" aria-label="Menu utama">
+          <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+          <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+          <a href="kontak.html" role="menuitem">Kontak</a>
+
+          <!-- mobile CTA (visible inside dropdown on small screens) -->
+          <div class="cta-mobile" style="margin-top:8px">
+            <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+            
+          </div>
+        </div>
+      </details>
+
+      <!-- desktop CTA -->
+      <div class="cta desktop-cta">
+        <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+        <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+        <a href="kontak.html" role="menuitem">Kontak</a>
+        <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+      </div>
+    </nav>
+  </header>
+
+    <section id="bergabung" class="section-card" aria-labelledby="bergabung-title">
+      <h2 id="bergabung-title">Cara bergabung</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Daftar anggota</h3>
+          <p class="muted">Isi formulir pendaftaran berikut. Kami akan menghubungi kamu untuk verifikasi.</p>
+          <form aria-label="Formulir pendaftaran" style="margin-top:8px">
+            <label>Nama lengkap<br>
+              <input type="text" name="nama" placeholder="Nama kamu" required style="width:100%;padding:10px;border-radius:10px;border:1px solid #1f2937;background:#0b1226;color:var(--text)"></label><br><br>
+            <label>No. HP/WhatsApp<br>
+              <input type="tel" name="hp" placeholder="08xxxxxxxxxx" required style="width:100%;padding:10px;border-radius:10px;border:1px solid #1f2937;background:#0b1226;color:var(--text)"></label><br><br>
+            <label>Alamat<br>
+              <input type="text" name="alamat" placeholder="Kecamatan, Kota" required style="width:100%;padding:10px;border-radius:10px;border:1px solid #1f2937;background:#0b1226;color:var(--text)"></label><br><br>
+            <label>Jenis sampah dominan<br>
+              <select name="jenis" style="width:100%;padding:10px;border-radius:10px;border:1px solid #1f2937;background:#0b1226;color:var(--text)">
+                <option>Plastik</option>
+                <option>Kertas</option>
+                <option>Logam</option>
+                <option>Kaca</option>
+                <option>Campuran terpilah</option>
+              </select>
+            </label><br><br>
+            <button type="submit" class="btn btn-primary">Kirim pendaftaran</button>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Persyaratan sederhana</h3>
+          <ul>
+            <li><strong>KTP/Identitas:</strong> Untuk pembuatan akun anggota.</li>
+            <li><strong>Setoran terpilah:</strong> Minimal 1 kg per kunjungan (disarankan).</li>
+            <li><strong>Kebersihan:</strong> Sampah kering dan tidak tercampur organik.</li>
+            <li><strong>Konsistensi:</strong> Ikuti jadwal setoran atau penjemputan.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+     <footer>
+    <div class="footer-wrap">
+      <div>
+        <strong>Bank Sampah</strong>
+        <p class="small">Mendorong ekonomi sirkular lokal melalui pemilahan, penimbangan transparan, dan edukasi lingkungan.</p>
+      </div>
+      <div>
+        <p class="small">Bank Sampah • Dibangun dengan HTML & CSS ringan</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+</body>
+</html>

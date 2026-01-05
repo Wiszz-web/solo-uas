@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bank Sampah</title>
+  <meta name="description" content="Bank Sampah: edukasi, penjemputan, penimbangan, dan penukaran sampah jadi tabungan." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="brand" aria-hidden="false">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Bank Sampah</div>
+      </div>
+
+      <!-- details used for mobile toggle; on desktop it becomes display:contents -->
+      <details class="nav-toggle" role="group" aria-label="Menu navigasi">
+        <summary aria-label="Buka menu" class="summary-btn">
+          <span class="hamburger" aria-hidden="true"><span></span></span>
+        </summary>
+
+        <div class="menu" role="menubar" aria-label="Menu utama">
+          <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+          <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+          <a href="kontak.html" role="menuitem">Kontak</a>
+
+          <!-- mobile CTA (visible inside dropdown on small screens) -->
+          <div class="cta-mobile" style="margin-top:8px">
+            <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+            
+          </div>
+        </div>
+      </details>
+
+      <!-- desktop CTA -->
+      <div class="cta desktop-cta">
+        <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+        <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+        <a href="kontak.html" role="menuitem">Kontak</a>
+        <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Ubah sampah jadi tabungan, dampak, dan masa depan</h1>
+        <p class="muted">Kami menimbang, mencatat, dan menukar sampah terpilah menjadi nilai tabungan atau insentif. Edukasi berkelanjutan untuk rumah tangga, kampus, dan komunitas.</p>
+        <div class="kpi">
+          <span class="chip">+1200 anggota aktif</span>
+          <span class="chip">> 18 ton sampah dikelola</span>
+          <span class="chip">95% ketepatan pencatatan</span>
+        </div>
+        <div class="cta" style="margin-top:12px">
+          <a class="btn btn-primary" href="bergabung.html">Mulai menabung</a>
+          <a class="btn btn-outline" href="#">Pelajari sistem</a>
+        </div>
+      </div>
+      <div>
+        <img src="1.jpg" alt="Aktivitas penimbangan dan pemilahan sampah di bank sampah" />
+        <video width="600" controls>
+          <source src="sampah.mp4" type="video/mp4">
+          Browser Anda tidak mendukung tag video.
+        </video>
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="section-card" aria-labelledby="tentang-title">
+      <h2 id="tentang-title">Tentang bank sampah</h2>
+      <p>Bank sampah adalah sistem pengelolaan sampah berbasis partisipasi masyarakat. Warga menyetor sampah terpilah (plastik, kertas, logam, kaca) untuk ditimbang dan dicatat sebagai tabungan. Nilai tabungan dapat ditukar menjadi uang, sembako, atau potongan iuran.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Misi</h3>
+          <p class="muted">Mewujudkan lingkungan bersih, ekonomi sirkular lokal, dan budaya memilah sampah sejak rumah.</p>
+        </div>
+        <div class="card">
+          <h3>Program</h3>
+          <p class="muted">Edukasi rutin, penjemputan terjadwal, penimbangan transparan, rekap digital, dan kemitraan daur ulang.</p>
+        </div>
+        <div class="card">
+          <h3>Transparansi</h3>
+          <p class="muted">Setiap setoran tercatat dengan bukti timbang, jenis, harga satuan, dan saldo yang dapat dicek anggota.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manfaat -->
+    <section id="manfaat" class="section-card" aria-labelledby="manfaat-title">
+      <h2 id="manfaat-title">Manfaat utama</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Lingkungan</h3>
+          <ul>
+            <li><strong>Pengurangan sampah:</strong> Mengurangi sampah ke TPA melalui pemilahan dan daur ulang.</li>
+            <li><strong>Kebersihan wilayah:</strong> Lingkungan lebih tertib, sehat, dan indah.</li>
+            <li><strong>Edukasi berkelanjutan:</strong> Perubahan perilaku memilah dari rumah.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Ekonomi & sosial</h3>
+          <ul>
+            <li><strong>Tabungan bernilai:</strong> Setoran menjadi saldo yang bisa ditukar.</li>
+            <li><strong>Peluang usaha:</strong> UMKM daur ulang dan kerajinan.</li>
+            <li><strong>Kebersamaan:</strong> Kolaborasi warga, sekolah, kampus, dan RT/RW.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cara Kerja -->
+    <section id="cara-kerja" class="section-card" aria-labelledby="cara-title">
+      <h2 id="cara-title">Cara kerja</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Sortir di rumah</h3>
+          <p class="muted">Pisahkan plastik, kertas, logam, kaca. Pastikan kering dan bersih.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Setor atau jemput</h3>
+          <p class="muted">Datang ke titik kumpul atau jadwalkan penjemputan.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Timbang & catat</h3>
+          <p class="muted">Petugas menimbang per jenis, mencatat harga satuan, dan menambah saldo.</p>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <h3>Tukar manfaat</h3>
+          <p class="muted">Saldo dapat ditarik atau ditukar dengan paket kebutuhan.</p>
+        </div>
+      </div>
+    </section>
+
+ <footer>
+    <div class="footer-wrap">
+      <div>
+        <strong>Bank Sampah</strong>
+        <p class="small">Mendorong ekonomi sirkular lokal melalui pemilahan, penimbangan transparan, dan edukasi lingkungan.</p>
+      </div>
+      <div>
+        <p class="small">Bank Sampah • Dibangun dengan HTML & CSS ringan</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="brand" aria-hidden="false">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Bank Sampah</div>
+      </div>
+
+      <!-- details used for mobile toggle; on desktop it becomes display:contents -->
+      <details class="nav-toggle" role="group" aria-label="Menu navigasi">
+        <summary aria-label="Buka menu" class="summary-btn">
+          <span class="hamburger" aria-hidden="true"><span></span></span>
+        </summary>
+
+        <div class="menu" role="menubar" aria-label="Menu utama">
+          <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+          <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+          <a href="kontak.html" role="menuitem">Kontak</a>
+
+          <!-- mobile CTA (visible inside dropdown on small screens) -->
+          <div class="cta-mobile" style="margin-top:8px">
+            <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+            
+          </div>
+        </div>
+      </details>
+
+      <!-- desktop CTA -->
+      <div class="cta desktop-cta">
+        <a href="Bank Sampah.html" role="menuitem">Tentang</a>
+        <a href="lokasijadwal.html" role="menuitem">Lokasi & jadwal</a>
+        <a href="kontak.html" role="menuitem">Kontak</a>
+        <a class="btn btn-primary" href="bergabung.html">Daftar anggota</a>
+      </div>
+    </nav>
+  </header>
+
+    <section id="lokasi" class="section-card" aria-labelledby="lokasi-title">
+      <h2 id="lokasi-title">Lokasi & jadwal operasional</h2>
+      <p class="muted">Sesuaikan sesuai wilayah kamu. Contoh di bawah bisa kamu edit.</p>
+      <table aria-label="Tabel lokasi dan jadwal">
+        <thead>
+          <tr>
+            <th>Lokasi</th>
+            <th>Alamat</th>
+            <th>Jadwal</th>
+            <th>Layanan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Unit Pusat</td>
+            <td>Jl. Hijau No. 12, Panakkukang</td>
+            <td>Senin–Jumat, 08.00–16.00</td>
+            <td>Setor, timbang, penukaran</td>
+          </tr>
+          <tr>
+            <td>Titik Komunitas A</td>
+            <td>Balai RW 05, Tamalanrea</td>
+            <td>Sabtu, 08.00–12.00</td>
+            <td>Setor & edukasi</td>
+          </tr>
+          <tr>
+            <td>Penjemputan</td>
+            <td>Makassar dan sekitar</td>
+            <td>Jadwal by request</td>
+            <td>Jemput terjadwal</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+     <footer>
+    <div class="footer-wrap">
+      <div>
+        <strong>Bank Sampah</strong>
+        <p class="small">Mendorong ekonomi sirkular lokal melalui pemilahan, penimbangan transparan, dan edukasi lingkungan.</p>
+      </div>
+      <div>
+        <p class="small">Bank Sampah • Dibangun dengan HTML & CSS ringan</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
